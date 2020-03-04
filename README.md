@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Deploy runtime on Heroku: https://book-your-class-app.herokuapp.com/
 
-Things you may want to cover:
+This project is a continuous work and improved version from https://github.com/Kay-bot/booking-app-final-project.
 
-* Ruby version
+Stacks
+Fronend: built on React
+Backend: built on rails
+Database: Postgres
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The app will have the following features:
+A admin user can create classes and schedules
+A user can book a class

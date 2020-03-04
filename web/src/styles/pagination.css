@@ -1,0 +1,10 @@
+.page-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.page-total {
+  flex-grow: 2;
+  text-align: center;
+}

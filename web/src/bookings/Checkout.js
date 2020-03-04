@@ -135,7 +135,7 @@ class Checkout extends Component {
                   <b>Cost:</b> $ {this.state.cart.cost}
                 </div>
                 <div>
-                  <b>Date:</b> {this.state.cart.date}
+                  <b>Date:</b> {this.state.cart.start}
                 </div>
               </div>
             ) : (

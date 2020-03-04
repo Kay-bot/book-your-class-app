@@ -46,7 +46,7 @@ class Cart extends Component {
             <div>Booking status: {this.state.bookings.status}</div>
             <div>Lesson: {this.state.bookings.title}</div>
             <div>Cost: $ {this.state.bookings.cost}</div>
-            <div>Date: {this.state.bookings.date}</div>
+            <div>Date: {this.state.bookings.start}</div>
           </div>
         ) : (
           <p>No booking details</p>

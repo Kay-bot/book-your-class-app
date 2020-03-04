@@ -42,12 +42,12 @@ class BookingForm extends Component {
       status: "Booked",
       title: this.props.lesson.title,
       cost: this.props.lesson.cost,
-      start: schedule.value.date,
+      start: schedule.value.date + " " + schedule.value.time,
       user_id: auth.userId,
       lesson_id: this.props.lesson.id
     };
     console.log("Clicked Book");
-    console.log(schedule.value.date);
+    console.log(schedule.value.date + " " + schedule.value.time);
     console.log(this.props.lesson);
     console.log(auth.userId);
     debugger;
